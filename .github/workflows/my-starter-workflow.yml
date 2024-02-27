@@ -15,7 +15,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy to your project.
         
-    call-reusable-workflow:
+  call-reusable-workflow:
       strategy:
         matrix:
           nodeversion: [14, 16, 18, 20]
